@@ -215,23 +215,16 @@
 
 		@media (prefers-color-scheme: dark) {
 			body {
-				background-color: #0f0f0f;
+				filter: invert(1);
 			}
 
-			body,
-			p,
-			ul,
-			ol,
-			li,
-			blockquote,
-			small,
-			h1,
-			h2,
-			h3 {
-				color: #fdfdfc;
+			.newsletter-header,
+			hr {
+				border-color: #a7a7a7;
 			}
 
 			a {
+				filter: invert(1);
 				color: #6c93ff;
 			}
 			a:hover {
@@ -241,17 +234,10 @@
 				color: #ab88ff;
 			}
 
-			hr,
-			.newsletter-header,
-			.logo-colophon {
-				border-color: #383838;
+			.oferecimento,
+			.oferecimento p {
+				filter: invert(1);
 			}
-
-			code,
-			.newsletter-colophon {
-				background-color: #242424;
-			}
-
 			.oferecimento {
 				background-color: #410707;
 			}
@@ -260,6 +246,7 @@
 				background-color: #670606;
 				color: #e4b2b2;
 			}
+
 		}
 
 	</style>
