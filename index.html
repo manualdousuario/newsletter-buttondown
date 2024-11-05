@@ -1,17 +1,10 @@
 <html lang="pt-BR" xml:lang="pt-BR">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="x-apple-disable-message-reformatting" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="color-scheme" content="light dark" />
-	<meta name="supported-color-schemes" content="light dark" />
 
 	<style type="text/css" rel="stylesheet" media="all">
-		:root {
-			color-scheme: light dark;
-			supported-color-schemes: light dark;
-		}
-		
 		body,
 		p,
 		ul,
@@ -214,13 +207,64 @@
 		}
 
 		@media (prefers-color-scheme: dark) {
-			body {
+		body,
+		p,
+		ul,
+		ol,
+		li,
+		blockquote,
+		small,
+		h1,
+		h2,
+		h3 {
+				background-color: #121212;
+				color: #e3e3e3;
+			}
+
+			.oferecimento,
+			.oferecimento p {
+				background-color: #4b0303;
+			}
+			.oferecimento h3 {
+				box-shadow: none;
+				background-color: #521818;
+				color: #fac0c0;
+			}
+
+			.newsletter-colophon,
+			.newsletter-colophon * {
+				background-color: #1b1b1b;
+			}
+
+
+			a {
+				color: #6c93ff;
+			}
+			a:hover {
+				color: #a6bdff;
+			}
+			a:visited {
+				color: #ab88ff;
+			}
+
+		}
+	/*		ul,
+			ol,
+			li,
+			blockquote,
+			small,
+			h1,
+			h2,
+			h3,
+			.newsletter-colophon {
 				filter: invert(1);
 			}
 
 			.newsletter-header,
+			.newsletter-colophon,
 			hr {
 				border-color: #a7a7a7;
+				color: #a7a7a7;
 			}
 
 			a {
@@ -234,20 +278,17 @@
 				color: #ab88ff;
 			}
 
-			.oferecimento,
-			.oferecimento p {
-				filter: invert(1);
-			}
 			.oferecimento {
-				background-color: #410707;
+				background-color: #670606;
 			}
 			.oferecimento h3 {
+				filter: invert(1);
 				box-shadow: none;
 				background-color: #670606;
 				color: #e4b2b2;
 			}
 
-		}
+		} */
 
 	</style>
 </head>
