@@ -3,6 +3,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="x-apple-disable-message-reformatting" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="color-scheme" content="light dark" />
 
 	<style type="text/css" rel="stylesheet" media="all">
 		body,
@@ -16,6 +17,7 @@
 		h2,
 		h3 {
 			color: #1a1a1a;
+			background-color: #fcfcfc;
 			font-family: Georgia, "Noto Serif", serif;
 			font-size: 18px;
 			font-weight: normal;
@@ -133,6 +135,9 @@
 			margin: 100px auto 0;
 			padding: 25px 10px;
 		}
+		.newsletter-colophon p {
+			background-color: #f7f7f7;
+		}
 
 		.logo-colophon {
 			margin-top: 25px !important;
@@ -161,6 +166,7 @@
 		}
 		.oferecimento p {
 			padding: 0 10px;
+			background-color: transparent;
 		}
 
 		.bloco-destaque {
@@ -207,23 +213,22 @@
 		}
 
 		@media (prefers-color-scheme: dark) {
-		body,
-		p,
-		ul,
-		ol,
-		li,
-		blockquote,
-		small,
-		h1,
-		h2,
-		h3 {
-				background-color: #121212;
-				color: #e3e3e3;
+			body,
+			p,
+			ul,
+			ol,
+			li,
+			blockquote,
+			small,
+			h1,
+			h2,
+			h3 {
+				color: #f5f5f5;
+				background-color: #181818;
 			}
 
-			.oferecimento,
-			.oferecimento p {
-				background-color: #4b0303;
+			.oferecimento {
+				background-color: #340000;
 			}
 			.oferecimento h3 {
 				box-shadow: none;
@@ -231,12 +236,6 @@
 				color: #fac0c0;
 			}
 
-			.newsletter-colophon,
-			.newsletter-colophon * {
-				background-color: #1b1b1b;
-			}
-
-
 			a {
 				color: #6c93ff;
 			}
@@ -247,49 +246,17 @@
 				color: #ab88ff;
 			}
 
-		}
-	/*		ul,
-			ol,
-			li,
-			blockquote,
-			small,
-			h1,
-			h2,
-			h3,
-			.newsletter-colophon {
-				filter: invert(1);
-			}
-
+			hr,
 			.newsletter-header,
+			.logo-colophon {
+				border-color: #676767;
+			}
+
 			.newsletter-colophon,
-			hr {
-				border-color: #a7a7a7;
-				color: #a7a7a7;
+			.newsletter-colophon p {
+				background-color: #2b2b2b;
 			}
-
-			a {
-				filter: invert(1);
-				color: #6c93ff;
-			}
-			a:hover {
-				color: #a6bdff;
-			}
-			a:visited {
-				color: #ab88ff;
-			}
-
-			.oferecimento {
-				background-color: #670606;
-			}
-			.oferecimento h3 {
-				filter: invert(1);
-				box-shadow: none;
-				background-color: #670606;
-				color: #e4b2b2;
-			}
-
-		} */
-
+		}
 	</style>
 </head>
 <body>
